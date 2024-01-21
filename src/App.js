@@ -1,24 +1,18 @@
+import React from 'react';
+import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 
-import './App.css';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Olá!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      
+  
+      <ItemListContainer />
+      
+  
     </div>
   );
-}
+};
 
 export default App;
